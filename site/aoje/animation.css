@@ -1,0 +1,45 @@
+@keyframes headerlogo1{
+  from{
+    margin-left: -2000px;
+  }
+  to{
+    margin-left: 0px
+  }
+}
+
+@keyframes navbar{
+  from{
+    margin-left:2000px;
+  }
+  to{
+    margin-left:0px;
+  }
+}
+
+@keyframes titre-accueil{
+  from{
+    margin-top: -2000px;
+  }
+  to{
+    margin-top: 0px;
+  }
+}
+
+@keyframes etoile{
+  from{
+    margin-top: 2000px;
+  }
+  to{
+    margin-top: 0px;
+  }
+}
+
+@keyframes text-acc{
+  from{
+    margin-top: 2000px;
+  }
+  to{
+    margin-top: 0px;
+  }
+}
+

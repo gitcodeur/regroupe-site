@@ -1,0 +1,141 @@
+.header{
+    diplay: flex;
+    text-align:center;
+    background-color: #AAAAAA;
+    border-radius:5px;
+}
+.titre{
+    margin:0px 0px 5px 0px;
+    font-size: 2rem;
+}
+.btnchoiceLH{
+    background: linear-gradient(18deg, #ff8800, #0d06c8);
+}
+.btnchoiceLP{
+    background: linear-gradient(18deg, yellow, blue);
+}
+.content h3{
+    margin: 2px 0px 5px 0px;
+}
+.btnchoiceP,
+.btnchoiceH,
+.btnchoiceLP,
+.btnchoiceLH{
+    margin:0px 5px 0px 0px ;
+    border-radius:5px;
+    cursor:pointer;
+    border-width:1px;
+    padding:4px;
+    height:25px;
+    border:none;
+}
+.liens-python{
+    background: linear-gradient(18deg, yellow, blue);
+    text-decoration: none;
+    color: black;
+    margin: 0px 0px 0px 5px;
+    padding: 2px 2px 2px 2px;
+    border-radius:8px;
+    font-size: 1.1rem;
+}
+.liens-html{
+    text-decoration: none;
+    background: linear-gradient(18deg, #ff8800, #0d06c8);
+    color: black;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 2px 2px 2px;
+    border-radius:8px;
+    font-size: 1.1rem;
+}
+.liens{
+    display:flex;
+}
+.PROJETS{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 10px 0px 0px 0px;
+}
+.placebtn{
+    display:flex;
+    justify-content:center;
+}
+.choicelgu{
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    text-align:center;
+    background-color:#6e786c;
+    padding:5px 2px 5px 5px;
+    border-radius:5px;
+}
+.chap{
+    margin:29px 0px 7px 40px;
+    color: black;
+    text-decoration:underline;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.description{
+    display:flex;
+    margin:15px 0px 20px 0px;
+}
+.text-description{
+    font-size:17px;
+    margin:0px 30px 0px 30px;
+}
+.footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:50px 0px 0px 0px;
+    background-color:#e3e3e3;
+    border-radius:5px;
+}
+.footer .reseaux img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px 0px 0px;
+    transition: background 0.5s;
+    box-shadow: 5px 3px 20px 8px rgb(0 0 0 / 25%);
+}
+.footer .reseaux img:hover{
+    background:violet;
+}
+.prj{
+    display: inline-block;
+    text-align:center;
+    border-radius:8px;
+    width:150px;
+    background:#AAAAAA;
+    margin:0px 0px 10px 10px;
+}
+.downl{
+    margin: 0px 0px 3px 0px;
+}
+.content a{
+    border-radius:8px;
+    background:#AAAAAA;
+    text-decoration:none;
+    transition: background 0.5s;
+    color:black;
+    box-shadow: 0px 5px 20px 0px rgb(3 3 3 / 37%);
+}
+.download{
+    margin:0px 5px 0px 0px;
+    padding: 1px 1px 1px 1px;
+}
+.content a:hover{
+    background:#E0E0E0;
+}
+.HTML{
+    display:block;
+.PYTHON{
+    display:none;
+}
+
